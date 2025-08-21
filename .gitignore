@@ -1,0 +1,29 @@
+# Rust build
+/target/
+
+# Cargo.lock
+# (ignore this if you're building a library, but keep it for apps)
+/Cargo.lock
+
+# Backup, swap, and undo files from Vim/Neovim
+*~
+*.swp
+*.swo
+*.swm
+*.un~
+
+# Session files
+Session.vim
+*.sess
+
+# Tag files
+tags
+tags-*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Other editors/IDEs (if you ever open the project there)
+.vscode/
+.idea/
